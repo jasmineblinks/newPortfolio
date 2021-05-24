@@ -1,0 +1,210 @@
+.header-banner {
+  background: #e63946;
+  background: #1d3557;
+  position: relative;
+  max-height: 900px;
+  height: 900px;
+  min-height: max-content;
+  width: 100%;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../images/port-bg2.png");
+  background-position: top center;
+  background-blend-mode: multiply;
+}
+
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  width: 60px;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 20px;
+  margin-left: 40px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-bar a:hover {
+  color: #e63946;
+}
+
+.banner-content-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.banner-content {
+  max-width: 55%;
+  flex: 1;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+#title {
+  font-size: 5rem;
+  line-height: 0.9;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+.love {
+  color: #e63946;
+}
+
+.about-me {
+  max-width: 600px;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  line-height: 2;
+}
+
+.user-img-wrapper {
+  width: 35%;
+  /* position: absolute;
+  right: -5vw;
+  top: -5vw; */
+  background-color: #071b37;
+  border-radius: 50%;
+  height: 40vw;
+  width: 40vw;
+  max-width: 500px;
+  max-height: 500px;
+  overflow: hidden;
+  background-image: url("../../images/kenchi.png");
+  background-position: 30px;
+  background-repeat: no-repeat;
+  background-size: 90%;
+}
+
+.download-btn {
+  display: block;
+  max-width: fit-content;
+  /* padding: 1rem; */
+  padding-bottom: 5px;
+  border: none;
+  background: none;
+  border-bottom: 2px solid white;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.download-btn:hover {
+  color: #e63946;
+  border-bottom-color: #e63946;
+}
+
+.stack-section {
+  background-color: #e63946;
+  /* position: absolute; */
+  width: 100%;
+  padding: 2rem;
+  max-width: 1200px;
+  width: 100%;
+  transform: translateY(220px);
+  box-shadow: 0 0 10px 10px #4d4d4d29;
+  z-index: 3;
+  margin: 0 auto;
+  border-radius: 1rem;
+  color: #fff;
+}
+
+.stack-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+}
+.stack-section-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.stack-wrapper img {
+  width: 5%;
+}
+
+#react-logo {
+  width: 10%;
+}
+
+@media screen and (max-width: 769px) {
+  .header-banner {
+    padding: 1.5rem;
+  }
+  .banner-content-wrapper {
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    flex: 1;
+  }
+
+  .banner-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-section {
+    justify-content: center;
+  }
+
+  .about-me {
+    max-width: 80%;
+    margin: 0 auto 2rem auto;
+  }
+  .user-img-wrapper {
+    /* position: absolute; */
+    /* width: 100%; */
+    /* height: 100%; */
+    z-index: 1;
+    /* right: calc(-50%); */
+  }
+
+  .download-btn {
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .stack-section {
+    transform: unset;
+    margin-bottom: -100px;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  #title {
+    font-size: 12vw;
+  }
+  .about-me {
+    max-width: 90%;
+  }
+}
