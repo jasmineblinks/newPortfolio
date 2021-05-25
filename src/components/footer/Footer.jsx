@@ -1,18 +1,33 @@
 import React, { useState, useEffect } from "react";
 import styled from "@emotion/styled";
 import bg from "../../images/port-bg2.png";
+import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <StyledFooter>
+    <StyledFooter id={"contact-me"}>
       <h2 className="contact-me">Let's talk about that project of yours!</h2>
       <p className="content-paragraph">
-        I am open for projects or collaboration. Or we can grab some coffee for
-        the sake of it!
+        I am open for projects or collaboration. Or we can grab some coffee
+        while sharing ideas and planning on creating the next big thing.
       </p>
-      <a href="" className="contact-me-btn">
-        Send me an Email
-      </a>
+      <div className="media-icons">
+        <a href="#" className="media-link">
+          <FaEnvelope />
+        </a>
+        <a href="#" className="media-link">
+          <FaGithub />
+        </a>
+        <a href="#" className="media-link">
+          <FaLinkedin />
+        </a>
+        <a href="#" className="media-link">
+          <FaTwitter />
+        </a>
+      </div>
+      <small className="copy">
+        Copyright &copy; - Simeon Kenneth T (Kenchi)
+      </small>
     </StyledFooter>
   );
 };
@@ -21,8 +36,7 @@ export default Footer;
 
 const StyledFooter = styled.footer`
   width: 100%;
-
-  padding: 4rem 2rem;
+  padding: 4rem 2rem 1rem 2rem;
   background-color: #071b37;
   background-image: url(${bg});
   background-blend-mode: multiply;
@@ -46,6 +60,23 @@ const StyledFooter = styled.footer`
     width: 100%;
   }
 
+  .media-icons {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 3rem;
+  }
+
+  .media-link {
+    font-size: 2rem;
+    color: #e63946;
+    &:hover {
+      color: #fff;
+    }
+  }
   .contact-me-btn {
     text-decoration: none;
     text-align: center;
@@ -57,5 +88,11 @@ const StyledFooter = styled.footer`
       color: #ffffff;
       border-bottom: 3px solid #001e5f;
     }
+  }
+  small {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-top: 2rem;
   }
 `;

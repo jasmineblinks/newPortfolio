@@ -4,8 +4,8 @@ export const worksData = [
     title: "NIRSAL PORTAL",
     subtitle: ["React", "TypeScript", "Redux"],
     details:
-      "NIRSAL AGSMEIS portal for loan application and business plan creation. (part of the development and support team)",
-    url: "https://www.agsmeisapp.nmfb.com",
+      "NIRSAL AGSMEIS portal for loan application and business plan creation. (I'm part of the development and support team)",
+    url: "https://agsmeisapp.nmfb.com.ng/",
     direction: "left",
   },
   {

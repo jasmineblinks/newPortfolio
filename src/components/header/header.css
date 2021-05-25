@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .header-banner {
   background: #e63946;
   background: #1d3557;
@@ -36,6 +39,7 @@
 .nav-bar a {
   text-decoration: none;
   color: #fff;
+  cursor: pointer;
 }
 
 .nav-bar a:hover {
@@ -94,7 +98,7 @@
   max-height: 500px;
   overflow: hidden;
   background-image: url("../../images/kenchi.png");
-  background-position: 30px;
+  background-position: 10px;
   background-repeat: no-repeat;
   background-size: 90%;
 }
@@ -206,6 +210,10 @@
 }
 
 @media screen and (min-width: 1px) {
+  .contact-me {
+    font-size: 2rem !important;
+    margin-bottom: 10px;
+  }
   .work-description-left {
     grid-column: 1/6 !important;
     grid-row: 3 / 4 !important;
@@ -239,6 +247,9 @@
   }
   #react-logo {
     width: 15%;
+  }
+  .header-section {
+    margin-bottom: 40px;
   }
 }
 
@@ -303,6 +314,9 @@
 }
 
 @media screen and (min-width: 770px) {
+  .contact-me {
+    font-size: 3.5rem !important;
+  }
   .header-banner {
     padding: 2rem;
   }

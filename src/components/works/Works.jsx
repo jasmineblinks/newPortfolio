@@ -15,7 +15,7 @@ const Works = ({ direction, content }) => {
     window.open(url, "resizable=yes,scrollbars=yes,status=yes");
   };
   return (
-    <StyledWorksWrapper className={"works-section"}>
+    <StyledWorksWrapper className={"works-section"} id={"my-works"}>
       <h2 className={"sub-title"}>Some Little Works</h2>
       {worksData.map((work, index) => (
         <StyledLayout

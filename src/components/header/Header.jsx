@@ -20,13 +20,13 @@ const Header = () => {
         {" "}
         <img src={myLogo} className={"header-logo"} />{" "}
         <nav className={"nav-bar"}>
-          <a href={"#"} className={"nav-link"}>
+          <a href={"#about-me"} className={"nav-link"}>
             About
           </a>{" "}
-          <a href={"#"} className={"nav-link"}>
+          <a href={"#my-works"} className={"nav-link"}>
             Works
           </a>
-          <a href={"#"} className={"nav-link"}>
+          <a href={"#contact-me"} className={"nav-link"}>
             Contact
           </a>
         </nav>
@@ -37,7 +37,7 @@ const Header = () => {
             {" "}
             For the <b className={"love"}>Love</b> of <br /> Frontend{" "}
           </h1>
-          <p className={"about-me"}>
+          <p className={"about-me"} id={"about-me"}>
             With hands on experience in UI/UX design. I make complex designs
             simple and simple ideas complex. I just love solving real world
             problems with principles of design and code.{" "}
