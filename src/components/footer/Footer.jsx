@@ -8,8 +8,8 @@ const Footer = () => {
     <StyledFooter id={"contact-me"}>
       <h2 className="contact-me">Let's talk about that project of yours!</h2>
       <p className="content-paragraph">
-        I am open for projects or collaboration. Or we can grab some coffee
-        while sharing ideas and planning on creating the next big thing.
+        I am open for projects or collaboration. We can also grab a cup of
+        coffee while sharing ideas and planning on creating the next big thing.
       </p>
       <div className="media-icons">
         <a
