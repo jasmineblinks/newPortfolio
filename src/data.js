@@ -4,7 +4,7 @@ export const worksData = [
     title: "NIRSAL PORTAL",
     subtitle: ["React", "TypeScript", "Redux"],
     details:
-      "NIRSAL AGSMEIS portal for loan application and business plan creation.",
+      "NIRSAL AGSMEIS portal for loan application and business plan creation. (part of the development and support team)",
     url: "https://www.agsmeisapp.nmfb.com",
     direction: "left",
   },
@@ -19,13 +19,21 @@ export const worksData = [
   },
   {
     index: 3,
-    title: "REACT PROJECTS ",
-    subtitle: ["React", "TypeScript", "Redux"],
-    details:
-      "A project of many simple REACT projects. This was started to complete and receive the Freecodecamp frontend library certificate.",
-    url: "https://simple-react-projects.vercel.app/",
+    title: "CONVERTER SENSEI ",
+    subtitle: ["Javascript", "CSS3", "HTML5"],
+    details: "A PWA multipurpose calculator and converter app",
+    url: "https://converter-sensei.web.app/calc.html",
     direction: "left",
   },
+  // {
+  //   index: 3,
+  //   title: "REACT PROJECTS ",
+  //   subtitle: ["React", "TypeScript", "Redux"],
+  //   details:
+  //     "A project of many simple REACT projects. This was started to complete and receive the Freecodecamp frontend library certificate.",
+  //   url: "https://simple-react-projects.vercel.app/",
+  //   direction: "left",
+  // },
   {
     index: 4,
     title: "LOOPSTUDIOS",

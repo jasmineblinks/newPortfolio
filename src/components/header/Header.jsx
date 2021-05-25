@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 
 import reactLogo from "../../images/logo.svg";
+import myLogo from "../../images/kenchi_logo.png";
 import nodeLogo from "../../images/nodejs-icon.svg";
 import jSLogo from "../../images/logo-javascript.svg";
 import bSLogo from "../../images/bootstrap-logo.svg";
 import sassLogo from "../../images/sass-logo.svg";
 import htmlLogo from "../../images/html5-logo.svg";
-import reactLogo2 from "../../images/bootstrap-logo.svg";
+import nextLogo from "../../images/next-js.svg";
 import myCV from "../../assets/SIMEON_KENNETH_Resume.pdf";
 
 import { StyledLayout } from "../layout/Layout";
@@ -17,7 +18,7 @@ const Header = () => {
     <div className={"header-banner"}>
       <header className={"header-section"}>
         {" "}
-        <img src={reactLogo} className={"header-logo"} />{" "}
+        <img src={myLogo} className={"header-logo"} />{" "}
         <nav className={"nav-bar"}>
           <a href={"#"} className={"nav-link"}>
             About
@@ -57,11 +58,11 @@ const Header = () => {
         <h2 className={"stack-section-title"}>I work with these:</h2>
         <div className={"stack-wrapper"}>
           <img src={jSLogo} />
-          <img src={reactLogo2} />
           <img src={htmlLogo} />
           <img src={reactLogo} id={"react-logo"} />
           <img src={nodeLogo} />
           <img src={sassLogo} />
+          <img src={nextLogo} />
         </div>
       </section>
     </div>

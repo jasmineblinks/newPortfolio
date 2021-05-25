@@ -6,19 +6,28 @@ import nextIPProject from "../../images/nextIPProject.png";
 import nirsalProject from "../../images/nirsalProject.png";
 import reactProject from "../../images/nirsalProject.png";
 import loopStudios from "../../images/loopstudios.png";
+import converter from "../../images/converter.png";
 // import reactProject from "../../images/nirsalProject.png";
-const images = [nirsalProject, nextIPProject, reactProject, loopStudios];
+const images = [nirsalProject, nextIPProject, converter, loopStudios];
 
 const Works = ({ direction, content }) => {
   const gotoProject = (url) => {
     window.open(url, "resizable=yes,scrollbars=yes,status=yes");
   };
   return (
-    <StyledWorksWrapper>
+    <StyledWorksWrapper className={"works-section"}>
       <h2 className={"sub-title"}>Some Little Works</h2>
       {worksData.map((work, index) => (
-        <StyledLayout direction={work.direction} index={work.index}>
-          <div className={"work-description"}>
+        <StyledLayout
+          direction={work.direction}
+          className={"work-section-wrapper"}
+          index={work.index}>
+          <div
+            className={`${
+              work.direction === "left"
+                ? "work-description-left"
+                : "work-description-right"
+            }`}>
             <h3 className={"work-title"}>{work.title}</h3>
             <p className={"work-subtitle"}>
               {work.subtitle.map((subtitle) => (
@@ -73,7 +82,8 @@ const StyledLayout = styled.div`
   grid-template-columns: 150px 1fr 1fr 1fr 150px;
   grid-template-rows: 100px 1fr 1fr;
 
-  .work-description {
+  .work-description-left,
+  .work-description-right {
     width: auto;
     height: auto;
     background-color: #ffffff;
@@ -89,7 +99,8 @@ const StyledLayout = styled.div`
     flex-direction: column;
   }
 
-  .work-description h3 {
+  .work-description-left h3,
+  .work-description-right h3 {
     font-size: 1.5rem;
     color: #e63946;
     margin-bottom: 1rem;
