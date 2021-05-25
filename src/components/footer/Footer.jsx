@@ -12,16 +12,32 @@ const Footer = () => {
         while sharing ideas and planning on creating the next big thing.
       </p>
       <div className="media-icons">
-        <a href="#" className="media-link">
+        <a
+          href="mailto:Simeonkenneth3@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="media-link">
           <FaEnvelope />
         </a>
-        <a href="#" className="media-link">
+        <a
+          href="http://www.github.com/KenRelic"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="media-link">
           <FaGithub />
         </a>
-        <a href="#" className="media-link">
+        <a
+          href=" www.linkedin.com/in/simeonkenneth"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="media-link">
           <FaLinkedin />
         </a>
-        <a href="#" className="media-link">
+        <a
+          href=" www.twitter.com/semanticTSK"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="media-link">
           <FaTwitter />
         </a>
       </div>
