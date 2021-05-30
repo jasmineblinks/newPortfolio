@@ -9,31 +9,41 @@ import sassLogo from "../../images/sass-logo.svg";
 import htmlLogo from "../../images/html5-logo.svg";
 import nextLogo from "../../images/next-js.svg";
 import myCV from "../../assets/SIMEON_KENNETH_Resume.pdf";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import { StyledLayout } from "../layout/Layout";
 import "./header.css";
 
 const Header = () => {
+  useEffect(() => {
+    AOS.init({
+      offset: 400,
+      duration: 400,
+      easing: "ease-in-sine",
+      delay: 300,
+    });
+  });
   return (
     <div className={"header-banner"}>
       <header className={"header-section"}>
         {" "}
         <img src={myLogo} className={"header-logo"} />{" "}
         <nav className={"nav-bar"}>
-          <a href={"#about-me"} className={"nav-link"}>
+          <a href={"#about-me"} data-aos="fade-right" className={"nav-link"}>
             About
           </a>{" "}
-          <a href={"#my-works"} className={"nav-link"}>
+          <a href={"#my-works"} data-aos="fade-right" className={"nav-link"}>
             Works
           </a>
-          <a href={"#contact-me"} className={"nav-link"}>
+          <a href={"#contact-me"} data-aos="fade-right" className={"nav-link"}>
             Contact
           </a>
         </nav>
       </header>
       <div className={"banner-content-wrapper"}>
-        <section className={"banner-content"}>
-          <h1 id={"title"}>
+        <section className={"banner-content"} data-aos="fade-left">
+          <h1 id={"title"} data-aos="fade-left">
             {" "}
             For the <b className={"love"}>Love</b> of <br /> Frontend{" "}
           </h1>
@@ -49,7 +59,7 @@ const Header = () => {
             Download CV
           </a>
         </section>
-        <div className={"user-img-wrapper"}>
+        <div className={"user-img-wrapper"} data-aos="fade-in">
           {/* <img src={logo} className={"user-img"} /> */}
         </div>
       </div>

@@ -7,6 +7,8 @@ import nirsalProject from "../../images/nirsalProject.png";
 import reactProject from "../../images/nirsalProject.png";
 import loopStudios from "../../images/loopstudios.png";
 import converter from "../../images/converter.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 // import reactProject from "../../images/nirsalProject.png";
 const images = [nirsalProject, nextIPProject, converter, loopStudios];
 
@@ -14,11 +16,22 @@ const Works = ({ direction, content }) => {
   const gotoProject = (url) => {
     window.open(url, "resizable=yes,scrollbars=yes,status=yes");
   };
+
+  useEffect(() => {
+    AOS.init({
+      offset: 400,
+      duration: 400,
+      easing: "ease-in-sine",
+      delay: 100,
+      once: true,
+    });
+  });
   return (
     <StyledWorksWrapper className={"works-section"} id={"my-works"}>
       <h2 className={"sub-title"}>Some Little Works</h2>
       {worksData.map((work, index) => (
         <StyledLayout
+          data-aos="fade-in"
           direction={work.direction}
           className={"work-section-wrapper"}
           index={work.index}>
@@ -28,14 +41,19 @@ const Works = ({ direction, content }) => {
                 ? "work-description-left"
                 : "work-description-right"
             }`}>
-            <h3 className={"work-title"}>{work.title}</h3>
-            <p className={"work-subtitle"}>
+            <h3 data-aos="fade-right" className={"work-title"}>
+              {work.title}
+            </h3>
+            <p data-aos="fade-right" className={"work-subtitle"}>
               {work.subtitle.map((subtitle) => (
                 <span>{subtitle}</span>
               ))}
             </p>
-            <p className={"work-details"}>{work.details}</p>
+            <p data-aos="fade-right" className={"work-details"}>
+              {work.details}
+            </p>
             <button
+              data-aos="fade-left"
               className={"work-live-link"}
               onClick={() => gotoProject(work.url)}>
               See Project
