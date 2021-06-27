@@ -7,25 +7,26 @@ import nirsalProject from "../../images/nirsalProject.png";
 import reactProject from "../../images/nirsalProject.png";
 import loopStudios from "../../images/loopstudios.png";
 import converter from "../../images/converter.png";
+import website from "../../images/website.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 // import reactProject from "../../images/nirsalProject.png";
-const images = [nirsalProject, nextIPProject, converter, loopStudios];
+const images = [nirsalProject, nextIPProject, converter, loopStudios, website];
 
 const Works = ({ direction, content }) => {
   const gotoProject = (url) => {
     window.open(url, "resizable=yes,scrollbars=yes,status=yes");
   };
 
-  useEffect(() => {
-    AOS.init({
-      offset: 400,
-      duration: 400,
-      easing: "ease-in-sine",
-      delay: 100,
-      once: true,
-    });
-  });
+  // useEffect(() => {
+  //   AOS.init({
+  //     offset: 400,
+  //     duration: 400,
+  //     easing: "ease-in-sine",
+  //     delay: 100,
+  //     once: true,
+  //   });
+  // });
   return (
     <StyledWorksWrapper className={"works-section"} id={"my-works"}>
       <h2 className={"sub-title"}>Some Little Works</h2>
@@ -115,6 +116,7 @@ const StyledLayout = styled.div`
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    /* border-radius: 20px 20px 0 0; */
   }
 
   .work-description-left h3,

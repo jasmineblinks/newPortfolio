@@ -18,10 +18,11 @@ import "./header.css";
 const Header = () => {
   useEffect(() => {
     AOS.init({
-      offset: 400,
+      offset: 100,
       duration: 400,
       easing: "ease-in-sine",
-      delay: 300,
+      delay: 100,
+      once: true,
     });
   });
   return (

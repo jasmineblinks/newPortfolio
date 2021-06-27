@@ -25,21 +25,21 @@ export const worksData = [
     url: "https://converter-sensei.web.app/calc.html",
     direction: "left",
   },
-  // {
-  //   index: 3,
-  //   title: "REACT PROJECTS ",
-  //   subtitle: ["React", "TypeScript", "Redux"],
-  //   details:
-  //     "A project of many simple REACT projects. This was started to complete and receive the Freecodecamp frontend library certificate.",
-  //   url: "https://simple-react-projects.vercel.app/",
-  //   direction: "left",
-  // },
   {
     index: 4,
     title: "LOOPSTUDIOS",
     subtitle: ["NextJs"],
     details: "A frontend Mentor challenge built with Nextjs.",
     url: " https://cadprojects.vercel.app/",
+    direction: "left",
+  },
+  {
+    index: 5,
+    title: "CAD WEBSITE",
+    subtitle: ["React", "Styled component"],
+    details:
+      "A Multiple page website for CAD Consulting Limited (Still in progress)",
+    url: "https://caderp-web.netlify.app/",
     direction: "right",
   },
 ];
