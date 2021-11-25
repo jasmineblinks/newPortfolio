@@ -86,7 +86,7 @@ const StyledFooter = styled.footer`
 
   .media-link {
     font-size: 2rem;
-    color: #e63946;
+    color: #071b37;
     &:hover {
       color: #fff;
     }
