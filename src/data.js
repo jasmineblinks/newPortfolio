@@ -39,7 +39,7 @@ export const worksData = [
     subtitle: ["React", "Styled component"],
     details:
       "A Multiple page website for CAD Consulting Limited (Still in progress)",
-    url: "https://caderp-web.netlify.app/",
+    url: "https://cadconsultinglimited.com/",
     direction: "right",
   },
   {
