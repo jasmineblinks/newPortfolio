@@ -27,14 +27,14 @@ const Footer = () => {
           <FaGithub />
         </a>
         <a
-          href=" www.linkedin.com/in/faithpueneh"
+          href="https://www.linkedin.com/faithpueneh"
           target="_blank"
           rel="noopener noreferrer"
           className="media-link">
           <FaLinkedin />
         </a>
         <a
-          href=" www.twitter.com/Puenehfaith"
+          href="https://www.twitter.com/Puenehfaith"
           target="_blank"
           rel="noopener noreferrer"
           className="media-link">
