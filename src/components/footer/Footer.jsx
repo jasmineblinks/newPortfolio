@@ -34,7 +34,7 @@ const Footer = () => {
           <FaLinkedin />
         </a>
         <a
-          href="https://www.twitter.com/Puenehfaith"
+          href="https://twitter.com/Puenehfaith"
           target="_blank"
           rel="noopener noreferrer"
           className="media-link">
