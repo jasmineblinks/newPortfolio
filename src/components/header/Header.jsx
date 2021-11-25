@@ -34,7 +34,7 @@ const Header = () => {
             About
           </a>{" "}
           <a href={"#my-works"} data-aos="fade-right" className={"nav-link"}>
-            Works
+            Projects
           </a>
           <a href={"#contact-me"} data-aos="fade-right" className={"nav-link"}>
             Contact
