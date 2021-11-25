@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 
 import reactLogo from "../../images/logo.svg";
 import myLogo from "../../images/jasmine.png";
@@ -11,7 +11,7 @@ import myCV from "../../assets/faith_pueneh.pdf";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import { StyledLayout } from "../layout/Layout";
+// import { StyledLayout } from "../layout/Layout";
 import "./header.css";
 
 const Header = () => {

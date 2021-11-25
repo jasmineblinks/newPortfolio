@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import styled from "@emotion/styled";
 
 import { worksData } from "../../data.js";
 import nextIPProject from "../../images/shorten.png";
 import nirsalProject from "../../images/nirsalProject.png";
-import reactProject from "../../images/nirsalProject.png";
+// import reactProject from "../../images/nirsalProject.png";
 import loopStudios from "../../images/blog.png";
 import converter from "../../images/social.png";
 import website from "../../images/website.png";
-import AOS from "aos";
+// import AOS from "aos";
 import "aos/dist/aos.css";
 // import reactProject from "../../images/nirsalProject.png";
 const images = [nirsalProject, nextIPProject, converter, loopStudios, website];

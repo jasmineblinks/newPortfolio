@@ -1,7 +1,7 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/header/Header";
-import { StyledLayout } from "./components/layout/Layout";
+// import { StyledLayout } from "./components/layout/Layout";
 import Works from "./components/works/Works";
 import Footer from "./components/footer/Footer";
 
