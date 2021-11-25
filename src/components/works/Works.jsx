@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import styled from "@emotion/styled";
 
 import { worksData } from "../../data.js";
-import nextIPProject from "../../images/nextIPProject.png";
+import nextIPProject from "../../images/shorten.png";
 import nirsalProject from "../../images/nirsalProject.png";
 import reactProject from "../../images/nirsalProject.png";
-import loopStudios from "../../images/loopstudios.png";
-import converter from "../../images/converter.png";
+import loopStudios from "../../images/blog.png";
+import converter from "../../images/social.png";
 import website from "../../images/website.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -77,7 +77,7 @@ const StyledWorksWrapper = styled.div`
   .sub-title {
     font-size: 2rem;
     text-align: center;
-    color: #1d3557;
+    color: #e8685d;
   }
 
   .work {
@@ -130,7 +130,7 @@ const StyledLayout = styled.div`
     color: #1d3557;
 
     span {
-      background-color: #1d3557;
+      background-color: #e8685d;
       padding: 3px 10px;
       font-size: 14px;
       color: #fff;
@@ -158,7 +158,7 @@ const StyledLayout = styled.div`
   .work-img {
     width: auto;
     height: auto;
-    background-color: #1d3557;
+    background-color: #e8685d;
     /* grid-column: 2 / 6; */
     grid-column: ${(props) => (props.direction === "left" ? "2 / 6" : "1 / 5")};
     grid-row: 1 / 4;

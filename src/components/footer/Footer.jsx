@@ -8,42 +8,40 @@ const Footer = () => {
     <StyledFooter id={"contact-me"}>
       <h2 className="contact-me">Let's talk about that project of yours!</h2>
       <p className="content-paragraph">
-        I am open for projects or collaboration. We can also grab a cup of
-        coffee while sharing ideas and planning on creating the next big thing.
+        I am open for jobs. We can also grab a cup of coffee while sharing ideas
+        and planning on creating the next big thing.
       </p>
       <div className="media-icons">
         <a
-          href="mailto:Simeonkenneth3@gmail.com"
+          href="mailto:puenehfaith@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           className="media-link">
           <FaEnvelope />
         </a>
         <a
-          href="http://www.github.com/KenRelic"
+          href="https://github.com/jasmineblinks"
           target="_blank"
           rel="noopener noreferrer"
           className="media-link">
           <FaGithub />
         </a>
         <a
-          href=" www.linkedin.com/in/simeonkenneth"
+          href=" www.linkedin.com/in/faithpueneh"
           target="_blank"
           rel="noopener noreferrer"
           className="media-link">
           <FaLinkedin />
         </a>
         <a
-          href=" www.twitter.com/semanticTSK"
+          href=" www.twitter.com/Puenehfaith"
           target="_blank"
           rel="noopener noreferrer"
           className="media-link">
           <FaTwitter />
         </a>
       </div>
-      <small className="copy">
-        Copyright &copy; - Simeon Kenneth T (Kenchi)
-      </small>
+      <small className="copy">Copyright &copy; - Faith Pueneh</small>
     </StyledFooter>
   );
 };
@@ -53,7 +51,7 @@ export default Footer;
 const StyledFooter = styled.footer`
   width: 100%;
   padding: 4rem 2rem 1rem 2rem;
-  background-color: #071b37;
+  background-color: #e8685d;
   background-image: url(${bg});
   background-blend-mode: multiply;
   color: #fff;
@@ -102,7 +100,7 @@ const StyledFooter = styled.footer`
     padding-bottom: 4px;
     &:hover {
       color: #ffffff;
-      border-bottom: 3px solid #001e5f;
+      border-bottom: 3px solid #e8685d;
     }
   }
   small {

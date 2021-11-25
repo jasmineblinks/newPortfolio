@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from "react";
 
 import reactLogo from "../../images/logo.svg";
-import myLogo from "../../images/kenchi_logo.png";
-import nodeLogo from "../../images/nodejs-icon.svg";
+import myLogo from "../../images/jasmine.png";
+
 import jSLogo from "../../images/logo-javascript.svg";
-import bSLogo from "../../images/bootstrap-logo.svg";
-import sassLogo from "../../images/sass-logo.svg";
+
 import htmlLogo from "../../images/html5-logo.svg";
 import nextLogo from "../../images/next-js.svg";
-import myCV from "../../assets/SIMEON_KENNETH_Resume.pdf";
+import myCV from "../../assets/faith_pueneh.pdf";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -49,14 +48,14 @@ const Header = () => {
             For the <b className={"love"}>Love</b> of <br /> Frontend{" "}
           </h1>
           <p className={"about-me"} id={"about-me"}>
-            With hands on experience in UI/UX design. I make complex designs
-            simple and simple ideas complex. I just love solving real world
-            problems with principles of design and code.{" "}
+            A front-end developer who enjoys problem-solving, loves creating
+            dynamic and beautiful web applications with knowledge of UI/UX. A
+            volunteer-lead at the women who code front-end track.
           </p>
           <a
             href={myCV}
             className={"download-btn"}
-            download="Simeon_kenneth_resume">
+            download="Faith_Pueneh_resume">
             Download CV
           </a>
         </section>
@@ -71,8 +70,6 @@ const Header = () => {
           <img src={jSLogo} />
           <img src={htmlLogo} />
           <img src={reactLogo} id={"react-logo"} />
-          <img src={nodeLogo} />
-          <img src={sassLogo} />
           <img src={nextLogo} />
         </div>
       </section>

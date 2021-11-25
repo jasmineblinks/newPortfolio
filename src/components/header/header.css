@@ -3,7 +3,8 @@ html {
 }
 .header-banner {
   background: #e63946;
-  background: #1d3557;
+  background: #e8685d;
+  /* background: #1d3557; */
   position: relative;
   max-height: 900px;
   /* height: 900px; */
@@ -75,7 +76,7 @@ html {
 }
 
 .love {
-  color: #e63946;
+  color: #071b37;
 }
 
 .about-me {
@@ -97,7 +98,7 @@ html {
   max-width: 500px;
   max-height: 500px;
   overflow: hidden;
-  background-image: url("../../images/kenchi.png");
+  background-image: url("../../images/faith-p.jpg");
   background-position: 10px;
   background-repeat: no-repeat;
   background-size: 90%;
