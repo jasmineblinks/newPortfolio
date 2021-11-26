@@ -42,12 +42,12 @@ export const worksData = [
     url: "https://cadconsultinglimited.com/",
     direction: "right",
   },
-  {
-    index: 6,
-    title: "EASY BANK",
-    subtitle: ["Javascript", "CSS3", "HTML5"],
-    details: "A frontend Mentor challenge .",
-    url: "https://eazybank.netlify.app",
-    direction: "left",
-  },
+  // {
+  //   index: 6,
+  //   title: "EASY BANK",
+  //   subtitle: ["Javascript", "CSS3", "HTML5"],
+  //   details: "A frontend Mentor challenge .",
+  //   url: "https://eazybank.netlify.app",
+  //   direction: "left",
+  // },
 ];

@@ -8,7 +8,7 @@ import nirsalProject from "../../images/nirsalProject.png";
 import loopStudios from "../../images/blog.png";
 import converter from "../../images/social.png";
 import website from "../../images/website.png";
-import easy from "../../images/easy.png";
+// import easy from "../../images/easy.png";
 // import AOS from "aos";
 import "aos/dist/aos.css";
 // import reactProject from "../../images/nirsalProject.png";
@@ -18,7 +18,7 @@ const images = [
   converter,
   loopStudios,
   website,
-  easy,
+  // easy,
 ];
 
 const Works = ({ direction, content }) => {
